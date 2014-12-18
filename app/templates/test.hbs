@@ -1,0 +1,6 @@
+{{#each post in controller}}
+  {{post.author.name}}: {{post.body}}
+  <br/>
+{{/each}}
+
+<a {{action "login"}}>Log in</a>
